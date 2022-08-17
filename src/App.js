@@ -15,8 +15,8 @@ const BASE_URL = 'https://api.apilayer.com/exchangerates_data/live'
 
 function App() {
   const [currencyOptions, setCurrencyOptions] = useState(["🇦🇫 AFA", "🇦🇱 ALL", "🇩🇿 DZD", "🇦🇴 AOA", "🇦🇷 ARS", "🇦🇲 AMD", "🇦🇼 AWG", "🇦🇺 AUD", "🇦🇿 AZN", "🇧🇸 BSD", "🇧🇭 BHD", "🇧🇩 BDT", "🇧🇧 BBD", "🇧🇾 BYR", "🇧🇿 BZD", "🇧🇲 BMD", "🇧🇹 BTN", "🤑 BTC", "🇧🇴 BOB", "🇧🇦 BAM", "🇧🇼 BWP", "🇧🇷 BRL", "🇬🇧 GBP", "🇧🇳 BND", "🇧🇬 BGN", "🇧🇮 BIF", "🇰🇭 KHR", "🇨🇦 CAD", "🇨🇻 CVE", "🇰🇾 KYD", "🤑 XOF", "🤑 XAF", "🤑 XPF", "🇨🇱 CLP", "🇨🇳 CNY", "🇨🇴 COP", "🇰🇲 KMF", "🇨🇩 CDF", "🇨🇷 CRC", "🇭🇷 HRK", "🇨🇺 CUC", "🇨🇿 CZK", "🇩🇰 DKK", "🇩🇯 DJF", "🇩🇴 DOP", "XCD", "🇪🇬 EGP", "🇪🇷 ERN", "🇪🇹 ETB", "🇪🇺 EUR", "🇫🇰 FKP", "🇫🇯 FJD", "🇬🇲 GMD", "🇬🇪 GEL", "🇬🇭 GHS", "🇬🇮 GIP", "🇬🇹 GTQ", "🇬🇳 GNF", "🇬🇾 GYD", "🇭🇹 HTG", "🇭🇳 HNL", "🇭🇰 HKD", "🇭🇺 HUF", "🇮🇸 ISK", "🇮🇳 INR", "🇮🇩 IDR", "🇮🇷 IRR", "🇮🇶 IQD", "🇮🇱 ILS", "🇯🇲 JMD", "🇯🇵 JPY", "🇯🇴 JOD", "🇰🇿 KZT", "🇰🇪 KES", "🇰🇼 KWD", "🇰🇬 KGS", "🇱🇦 LAK", "🇱🇧 LBP", "🇱🇸 LSL", "🇱🇷 LRD", "🇱🇾 LYD", "🇱🇹 LTL", "🇲🇴 MOP", "🇲🇰 MKD", "🇲🇬 MGA", "🇲🇼 MWK", "🇲🇾 MYR", "🇲🇻 MVR", "🇲🇷 MRO", "🇲🇺 MUR", "🇲🇽 MXN", "🇲🇩 MDL", "🇲🇳 MNT", "🇲🇦 MAD", "🇲🇿 MZM", "🇲🇲 MMK", "🇳🇦 NAD", "🇳🇵 NPR", "🇹🇼 TWD", "🇳🇿 NZD", "🇳🇮 NIO", "🇳🇬 NGN", "🇰🇵 KPW", "🇳🇴 NOK", "🇴🇲 OMR", "🇵🇰 PKR", "🇵🇦 PAB", "🇵🇬 PGK", "🇵🇾 PYG", "🇵🇪 PEN", "🇵🇭 PHP", "🇵🇱 PLN", "🇶🇦 QAR", "🇷🇴 RON", "🇷🇺 RUB", "🇷🇼 RWF", "🇸🇻 SVC", "🇼🇸 WST", "🇸🇦 SAR", "🇷🇸 RSD", "🇸🇨 SCR", "🇸🇱 SLL", "🇸🇬 SGD", "🇸🇰 SKK", "🇸🇧 SBD", "🇸🇴 SOS", "🇿🇦 ZAR", "🇰🇷 KRW", "🤑 XDR", "🇱🇰 LKR", "🇸🇭 SHP", "🇸🇩 SDG", "🇸🇷 SRD", "🇸🇿 SZL", "🇸🇪 SEK", "🇨🇭 CHF", "🇸🇾 SYP", "🇸🇹 STD", "🇹🇯 TJS", "🇹🇿 TZS", "🇹🇭 THB", "🇹🇴 TOP", "🇹🇹 TTD", "🇹🇳 TND", "🇹🇷 TRY", "🇹🇲 TMT", "🇺🇬 UGX", "🇺🇦 UAH", "🇦🇪 AED", "🇺🇾 UYU", "🇺🇸 USD", "🇺🇿 UZS", "🇻🇺 VUV", "🇻🇪 VEF", "🇻🇳 VND", "🇾🇪 YER", "🇿🇲 ZMK"])
-  const [fromCurrency, setFromCurrency] = useState("EUR")
-  const [toCurrency, setToCurrency] = useState("USD")
+  const [fromCurrency, setFromCurrency] = useState("🇪🇺 EUR")
+  const [toCurrency, setToCurrency] = useState("🇺🇸 USD")
   const [exchangeRate, setExchangeRate] = useState(0)
   const [amount, setAmount] = useState(1)
   const [amountInFromCurrency, setAmountInFromCurrency] = useState(true)
