@@ -35,6 +35,8 @@ h1 {
 
 select {
   margin-left: .5rem;
+  border-radius: .3em;
+  padding: .25rem;
   background-color: #606060;
   color: #fff;
 }
