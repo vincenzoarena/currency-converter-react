@@ -6,26 +6,6 @@
 
 ![Screenshot from Project](./currency-converter.png)
 
-#### Navigation
-
-- About Project
-  - _Description_
-  - _Developed With_
-- How to use this Project
-  - _Description_
-  - _Developed With_
-- Contact
-  - _Mail_
-  - _GitHub_
-  - _LinkedIn_
-- Used Tools
-  - _Fonts_
-  - _Design_
-  - _Icons_
-  - _Colors_
-
----
-
 ### About Project
 
 This is a Webapp built in React.JS that allows you to convert a currency into another.
